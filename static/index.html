@@ -3,20 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pena's Profile</title>
+    <title>Pena Arazdurdyyew's Profile</title>
     <style>
-        img{
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 25px;
+        }
+        .profile-picture img {
             width: 200px;
             height: 200px;
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover;
+            border: 5px solid #ccc;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .content-section {
+            display: flex;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        .social-links img, .hobby-img img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+        .social-links a {
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div>
-        <h1>Welcome to Pena's Profile</h1>
-        <p>This is a simple profile page.</p>
-        <div>
-            <img src="https://extra.ie/wp-content/uploads/2020/01/Avatar.jpg" alt="Avatar">
+    <div class="container">
+        <h1>Welcome to Pena Arazdurdyyew's Profile</h1>
+        <p>This is a simple profile page created for **Pena Arazdurdyyew**.</p>
+        
+        <div class="profile-picture">
+            <img 
+                src="https://extra.ie/wp-content/uploads/2020/01/Avatar.jpg" 
+                alt="Pena's Main Avatar"
+            >
+        </div>
+
+        <div class="content-section">
+            
+            <div>
+                <h2>🎮 My Free Time</h2>
+                <p>On my free time, I love to play **PUBG** (PlayerUnknown's Battlegrounds).</p>
+                <div class="hobby-img">
+                    <img 
+                        src="https://via.placeholder.com/80/FF4500/FFFFFF?text=PUBG" 
+                        alt="PUBG Game Logo"
+                    >
+                    <p>PUBG Gaming Time</p>
+                </div>
+            </div>
+
+            <div>
+                <h2>💻 Code-Based Social Accounts</h2>
+                <p>You can find my code-related content on the following platforms:</p>
+                <div class="social-links">
+                    
+                    <a href="https://github.com/yourusername" target="_blank">
+                        <img 
+                            src="https://via.placeholder.com/80/333333/FFFFFF?text=GitHub" 
+                            alt="GitHub Icon"
+                        >
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank">
+                        <img 
+                            src="https://via.placeholder.com/80/0077B5/FFFFFF?text=LinkedIn" 
+                            alt="LinkedIn Icon"
+                        >
+                    </a>
+                    <a href="https://stackoverflow.com/users/yourid" target="_blank">
+                        <img 
+                            src="https://via.placeholder.com/80/F48024/FFFFFF?text=StackOverflow" 
+                            alt="StackOverflow Icon"
+                        >
+                    </a>
+                    <p>Click the icons to visit!</p>
+                </div>
+            </div>
+            
         </div>
     </div>
 </body>
