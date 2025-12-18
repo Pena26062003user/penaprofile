@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitorizarea Resurselor - Proiect Personal</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <section id="personal-info">
+        <h1>Nume și Prenume: Pena Arazdurdyyev</h1> 
+        <p><strong>Contact:</strong> arazdurdyyevpena2606@gmail.com | Tel: +40 775 367 175</p>
+    </section>
+
+    <section id="hardware-info">
+        <h2>Componente și Specificații PC</h2>
+        <table>
+            <tr>
+                <thComponent</th>
+                <th>Producator</th>
+                <th>Parametri</th>
+            </tr>
+            <tr>
+                <td>CPU (Procesor)</td>
+                <td>Intel</td>
+                <td>i7 10700K, 3.8 GHz</td>
+            </tr>
+            <tr>
+                <td>RAM (Memorie)</td>
+                <td>Corsair</td>
+                <td>16 GB DDR4</td>
+            </tr>
+            <tr>
+                <td>HDD/SSD</td>
+                <td>Samsung</td>
+                <td>1TB SSD NVMe</td>
+            </tr> 
+             <tr>
+                <td>Monitor</td>
+                <td>Dell</td>
+                <td>24 inch, 1080p</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="network-monitor">
+        <div class="network-diagram">
+            <h3>Diagrama Rețelei (Network)</h3>
+            <img src="images/diagramma.jpg" alt="Network Diagram" class="styled-img">
+            <p>Conexiune la Internet: Fiber Optic, 500 Mbps</p>
+        </div>
+
+        <div id="resources-section">
+            <h3>Monitorizare Resurse (Urmărirea Resurselor)</h3>
+            <p><em>Apăsați de două ori pe imagini pentru slideshow (Double Click).</em></p>
+            
+            <div id="image-container">
+                <img src="images/cpu.jpg" alt="CPU Usage" class="monitor-img">
+                <img src="images/memory.jpg" alt="Memory Usage" class="monitor-img">
+                <img src="images/disk.jpg" alt="Disk Usage" class="monitor-img">
+            </div>
+        </div>
+    </section>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
